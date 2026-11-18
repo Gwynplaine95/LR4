@@ -130,7 +130,7 @@ namespace LinqPlinqTask
 
             return sb.ToString();
         }
-
+        //
         // Вспомогательный метод для красивого вывода
         private void AppendResult(StringBuilder sb, string title, long linqTime, long plinqTime, List<int> results)
         {
